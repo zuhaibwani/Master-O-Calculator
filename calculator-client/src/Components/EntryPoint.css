@@ -1,0 +1,38 @@
+#e-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #c8d4ea;
+}
+
+
+#inner-div input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+    text-align: center;
+    font-size: large;
+}
+#btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+#btn{
+    margin-top: 2rem;
+    padding: 0.8rem 1.2rem;
+    font-size: large;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #c8d4ea;
+    color: black;
+}
